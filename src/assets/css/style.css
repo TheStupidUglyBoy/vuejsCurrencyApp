@@ -1,0 +1,43 @@
+@tailwind base;
+
+@tailwind components;
+
+.btn-primary {
+
+    @apply bg-gray-200   border    w-full  py-3 px-4 rounded text-purple-500 uppercase font-bold 
+}
+.btn-primary:hover {
+    @apply bg-purple-600 text-white  border-white 
+}
+
+
+.input-primary {
+
+    @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-yellow-200 rounded py-3 px-4 mb-3 leading-tight 
+
+}
+
+.input-primary:focus{
+    @apply  outline-none bg-white border-gray-500 
+}
+
+.input-primary:active{
+    @apply   border-gray-500
+}
+
+.validation-error {
+    @apply text-red-600 font-bold text-xs italic
+}
+
+.currency-select-style {
+  
+  @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight 
+}
+
+
+.currency-select-style:focus {
+  
+  @apply outline-none bg-white border-gray-500
+}
+
+@tailwind utilities;
