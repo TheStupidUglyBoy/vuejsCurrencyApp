@@ -138,10 +138,10 @@ export default {
   },
   computed : {
     currencyToFlagImg:function(){
-        return this.flagfolder + this.selectedTo + this.flagExtension 
+        return this.flagfolder + this.selectedTo.toLowerCase() + this.flagExtension 
     },
     currencyFromFlagImg:function(){
-        return this.flagfolder + this.selectedFrom + this.flagExtension 
+        return this.flagfolder + this.selectedFrom.toLowerCase() + this.flagExtension 
     },
     currencyToList:function(){
 
